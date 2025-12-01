@@ -27,3 +27,39 @@ body {
             position: relative;
         }
 
+        .icon-container {
+            position: absolute;
+            right: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.1rem;
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        .icon-success, .icon-error {
+            display: none;
+        }
+
+        /* Hata mesajı görünürlüğü */
+        .error-message {
+            height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease-in-out;
+            opacity: 0;
+            padding-left: 0.25rem;
+            font-size: 0.875rem; /* text-sm */
+            line-height: 1.2;
+        }
+
+        .form-group.error .error-message {
+            height: auto;
+            opacity: 1;
+            margin-top: 0.25rem;
+        }
+        
+        /* Input focus stili */
+        .form-group input:focus {
+            box-shadow: 0 0 0 3px var(--tw-ring-color, transparent);
+        }
