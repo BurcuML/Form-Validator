@@ -24,24 +24,8 @@ body {
             --tw-ring-color: #fecaca; /* Light Red */
         }
 
-       
         .input-wrapper {
             position: relative;
-        }
-
-        .icon-container {
-            position: absolute;
-            right: 0.75rem;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 1.1rem;
-            pointer-events: none;
-            display: flex;
-            align-items: center;
-        }
-        
-        .icon-success, .icon-error {
-            display: none;
         }
 
         /* Hata mesajı görünürlüğü */
