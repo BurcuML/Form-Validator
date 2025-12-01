@@ -1,6 +1,8 @@
 body {
             font-family: 'Inter', sans-serif;
             background-color: #f0f4f8; /* Açık gri-mavi arka plan */
+            margin: 0;
+            height: 100vh;
         }
 
         
