@@ -1,0 +1,29 @@
+body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Açık gri-mavi arka plan */
+        }
+
+        
+        .form-container {
+            background-color: #ffffff; /* Beyaz kart */
+        }
+
+        /* Başarılı durum */
+        .border-success { border-color: #34d399; } /* Emerald Green */
+        .text-success { color: #059669; } /* Darker Emerald */
+        .focus-ring-success:focus {
+            --tw-ring-color: #a7f3d0; /* Light Emerald */
+        }
+
+        /* Hatalı durum */
+        .border-error { border-color: #f87171; } /* Red */
+        .text-error { color: #dc2626; } /* Darker Red */
+        .focus-ring-error:focus {
+            --tw-ring-color: #fecaca; /* Light Red */
+        }
+
+       
+        .input-wrapper {
+            position: relative;
+        }
+
