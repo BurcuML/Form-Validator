@@ -16,3 +16,7 @@ if (languageBtn) {
         }
     });
 }
+
+form.addEventListener('submit', function(e) {
+    e.preventDefault();
+});
