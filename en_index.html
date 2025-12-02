@@ -14,50 +14,50 @@
     <div class="form-container relative w-full max-w-sm p-8 rounded-xl shadow-lg border border-gray-100">
 
         <button id="languageBtn" class="absolute top-4 right-4 px-3 py-1 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition duration-200 text-sm font-medium">
-            EN
+            TR
         </button>
 
-        <h1 class="text-3xl font-semibold text-gray-800 text-center mb-8">Kayıt Ol</h1>
+        <h1 class="text-3xl font-semibold text-gray-800 text-center mb-8">Sign Up</h1>
 
         <form id="registrationForm" class="space-y-6">
 
-            <!-- Kullanıcı Adı Alanı -->
+            <!-- Username Field -->
             <div class="form-group" id="username">
-                <label for="username" class="block text-sm font-medium text-gray-700 mb-1">Kullanıcı Adı</label>
+                <label for="username" class="block text-sm font-medium text-gray-700 mb-1">Username</label>
                 <div class="input-wrapper">
-                    <input type="text" id="username" name="username" placeholder="En az 5 karakter"
+                    <input type="text" id="username" name="username" placeholder="At least 5 characters"
                         class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-400 focus-ring-blue-200 transition duration-200">
                 </div>
                 <small class="error-message text-sm" id="username-error"></small>
             </div>
 
-            <!-- E-posta Alanı -->
+            <!-- Email Field -->
             <div class="form-group" id="email">
-                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">E-posta</label>
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
                 <div class="input-wrapper">
-                    <input type="email" id="email" name="email" placeholder="ornek@alanadi.com"
+                    <input type="email" id="email" name="email" placeholder="example@domain.com"
                         class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-400 focus-ring-blue-200 transition duration-200">
                 </div>
                 <small class="error-message text-sm" id="email-error"></small>
             </div>
 
-            <!-- Parola Alanı -->
+            <!-- Password Field -->
             <div class="form-group" id="password">
-                <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Parola</label>
+                <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
                 <div class="input-wrapper">
                     <input type="password" id="password" name="password"
-                        placeholder="Min. 8 karakter (harf, sayı, sembol)"
+                        placeholder="Min. 8 characters (letter, number, symbol)"
                         class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-400 focus-ring-blue-200 transition duration-200">
                 </div>
                 <small class="error-message text-sm" id="password-error"></small>
             </div>
 
-            <!-- Parola Onayı Alanı -->
+            <!-- Confirm Password Field -->
             <div class="form-group" id="confirmPassword">
-                <label for="confirmPassword" class="block text-sm font-medium text-gray-700 mb-1">Parola Onayı</label>
+                <label for="confirmPassword" class="block text-sm font-medium text-gray-700 mb-1">Confirm Password</label>
                 <div class="input-wrapper">
                     <input type="password" id="confirmPassword" name="confirmPassword"
-                        placeholder="Parolanızı tekrar girin"
+                        placeholder="Re-enter your password"
                         class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-400 focus-ring-blue-200 transition duration-200">
                 </div>
                 <small class="error-message text-sm" id="confirmPassword-error"></small>
@@ -65,7 +65,7 @@
 
             <button type="submit" id="submitBtn"
                 class="w-full py-3 mt-6 bg-blue-500 text-white font-medium rounded-lg hover:bg-blue-600 transition duration-200 shadow-md">
-                Kayıt Ol
+                Sign Up
             </button>
 
             <div id="form-message" class="text-center mt-4 p-3 rounded-lg hidden text-sm"></div>
@@ -73,7 +73,8 @@
         </form>
 
     </div>
- <script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
